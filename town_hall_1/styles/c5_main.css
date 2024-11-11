@@ -2,9 +2,7 @@
 :root {
 	--global-color-1: #800000;
 }
-header{
-	border-bottom: 3px solid: #931420;
-}
+
 /* the styles for the elements */
 body {
 	width: 600px;
@@ -13,6 +11,9 @@ body {
     margin:0% auto;
     border: 3px solid:#931420 ;
     background: #fffded;
+}
+header{
+	border-bottom: 3px solid: #931420;
 }
 a:focus, a:hover {
 	font-style: italic;
