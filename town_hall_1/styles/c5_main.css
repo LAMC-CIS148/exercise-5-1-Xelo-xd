@@ -3,7 +3,7 @@
 	--global-color-1: #800000;
 }
 header{
-	border-bottom: 3px solid #931420;
+	border-bottom: 3px solid: #931420;
 }
 /* the styles for the elements */
 body {
@@ -11,7 +11,7 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
     margin:0% auto;
-    border: 3px solid #931420 ;
+    border: 3px solid:#931420 ;
     background: #fffded;
 }
 a:focus, a:hover {
@@ -41,7 +41,7 @@ main {
 main h1 {
 	font-size: 150%;
 	padding: .3em 0;
-	border-top: 3px solid #913420;
+	border-top: 3px solid#913420;
 	border-bottom: 3px solid #913420;
 }
 main h2 {
