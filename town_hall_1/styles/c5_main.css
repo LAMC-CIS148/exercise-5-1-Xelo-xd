@@ -2,7 +2,9 @@
 :root {
 	--global-color-1: #800000;
 }
-
+html {
+	background-color: white;
+}
 /* the styles for the elements */
 body {
 	width: 600px;
@@ -13,7 +15,16 @@ body {
     background: #fffded;
 }
 header {
+	padding: 1.5em 0 2em 0;
 	border-bottom: 3px solid #931420;
+	background-image: -moz-linear-gradient(
+	    30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+	background-image: -webkit-linear-gradient(
+	    30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+	background-image: -o-linear-gradient(
+	    30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+	background-image: linear-gradient(
+	    30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
 }
 a:focus, a:hover {
 	font-style: italic;
